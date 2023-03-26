@@ -21,7 +21,6 @@ public class SearchPage {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
-
     //Search user flow
     public void search(String searchText) throws InterruptedException {
         searchField.click();

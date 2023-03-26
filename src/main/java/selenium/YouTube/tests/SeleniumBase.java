@@ -19,7 +19,6 @@ public class SeleniumBase {
         driver.get(url);
         return driver;
     }
-
     public void seleniumClose(ChromeDriver driver) {
         driver.close();
     }
