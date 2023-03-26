@@ -27,6 +27,7 @@ public class PlayerPage {
         PageFactory.initElements(driver, this);
     }
     //add videos to playlist
+
     public void addToPlaylist() throws InterruptedException {
         sleep(1000);
         optionsBtn.click();

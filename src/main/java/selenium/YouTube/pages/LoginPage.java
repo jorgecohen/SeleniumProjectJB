@@ -24,6 +24,7 @@ public class LoginPage {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
+
     // User login flow
     public void login(String userText, String pwText) throws InterruptedException {
         sleep(1000);

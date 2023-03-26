@@ -7,7 +7,7 @@ import selenium.YouTube.pages.PlaylistPage;
 import selenium.YouTube.pages.SearchPage;
 import selenium.YouTube.pages.PlayerPage;
 
-public class test {
+public class youTubeTest {
     public static void main(String[] args) throws InterruptedException {
         SeleniumBase base = new SeleniumBase();
         ChromeDriver driver = base.SeleniumInIt("https://www.youtube.com/");

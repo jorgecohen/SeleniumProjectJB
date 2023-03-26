@@ -22,6 +22,5 @@ public class SeleniumBase {
 
     public void seleniumClose(ChromeDriver driver) {
         driver.close();
-
     }
 }

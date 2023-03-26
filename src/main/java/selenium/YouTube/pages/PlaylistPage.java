@@ -12,6 +12,7 @@ public class PlaylistPage {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
+
     //Playing the playlist
     public void startPlaylist() throws InterruptedException {
         sleep(1000);
