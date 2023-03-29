@@ -5,8 +5,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 public class SeleniumBase {
-
-
     public ChromeDriver SeleniumInIt(String url) {
 
         System.out.println("Starting...");

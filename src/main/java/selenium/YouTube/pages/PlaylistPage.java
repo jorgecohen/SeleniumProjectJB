@@ -19,4 +19,5 @@ public class PlaylistPage {
         sleep(1000);
         play.click();
     }
+
 }

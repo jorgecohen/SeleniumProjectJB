@@ -11,8 +11,6 @@ public class SearchPage {
     WebElement searchField;
     @FindBy(id = "search-icon-legacy")
     WebElement searchBtn;
-    @FindBy(xpath = "//*[@id=\"container\"]/ytd-toggle-button-renderer/yt-button-shape/button/yt-touch-feedback-shape/div/div[2]")
-    WebElement sort;
     @FindBy(xpath = "//ytd-video-renderer[1]")
     WebElement firstVideo;
 

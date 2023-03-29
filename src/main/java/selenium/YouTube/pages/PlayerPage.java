@@ -21,7 +21,6 @@ public class PlayerPage {
     WebElement seleniumPlaylistBtn;
 
     public WebDriver driver;
-
     public PlayerPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
