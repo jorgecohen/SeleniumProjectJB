@@ -6,7 +6,6 @@ import selenium.YouTube.pages.LoginPage;
 import selenium.YouTube.pages.PlaylistPage;
 import selenium.YouTube.pages.SearchPage;
 import selenium.YouTube.pages.PlayerPage;
-
 public class youTubeTest {
     public static void main(String[] args) throws InterruptedException {
         SeleniumBase base = new SeleniumBase();
@@ -32,7 +31,7 @@ public class youTubeTest {
         playerPage.addToPlaylist();
         playerPage.moveToPlaylistPage();
         playlistPage.startPlaylist();
-        sleep(50000);
+        sleep(10000); //sleep time to play the playlist
         base.seleniumClose(driver);
     }
 }

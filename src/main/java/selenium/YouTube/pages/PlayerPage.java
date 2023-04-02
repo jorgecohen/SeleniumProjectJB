@@ -1,6 +1,5 @@
 package selenium.YouTube.pages;
 
-import static java.lang.Thread.sleep;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
