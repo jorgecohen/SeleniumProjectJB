@@ -14,9 +14,7 @@ public class PlaylistPage {
     }
     //Playing the playlist
     public void startPlaylist() throws InterruptedException {
-        sleep(1000);
         WebElement play = driver.findElement(By.cssSelector("span.style-scope.ytd-thumbnail-overlay-hover-text-renderer"));
-        sleep(1000);
         play.click();
     }
 

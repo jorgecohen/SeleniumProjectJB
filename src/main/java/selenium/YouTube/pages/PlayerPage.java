@@ -27,14 +27,10 @@ public class PlayerPage {
     }
     //add videos to playlist
     public void addToPlaylist() throws InterruptedException {
-        sleep(1000);
         optionsBtn.click();
-        sleep(1000);
         addToPlaylistBtn.click();
-        sleep(1000);
         List<WebElement> playlists = driver.findElements(By.id("checkboxContainer"));
         playlists.get(1).click();
-        sleep(1000);
         WebElement exitButton = driver.findElement(By.cssSelector("yt-icon[icon='close']"));
         exitButton.click();
     }

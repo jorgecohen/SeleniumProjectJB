@@ -26,21 +26,16 @@ public class LoginPage {
     }
     // User login flow
     public void login(String userText, String pwText) throws InterruptedException {
-        sleep(1000);
         WebElement loginBtn = driver.findElement(By.cssSelector("a[href*='ServiceLogin']"));
         loginBtn.click();
-        sleep(1000);
         userName.click();
         userName.clear();
         userName.sendKeys(userText);
-        sleep(1000);
         nextBtn.click();
-        sleep(1000);
         pw.click();
         pw.clear();
         pw.sendKeys(pwText);
         showPw.click();
-        sleep(2000);
         nextBtn2.click();
     }
 }

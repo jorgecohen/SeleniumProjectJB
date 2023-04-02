@@ -25,7 +25,6 @@ public class SearchPage {
         searchField.clear();
         searchField.sendKeys(searchText);
         searchBtn.click();
-        sleep(2000);
         firstVideo.click();
     }
 }

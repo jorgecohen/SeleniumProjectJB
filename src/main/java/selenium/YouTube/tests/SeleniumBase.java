@@ -4,6 +4,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import java.time.Duration;
+
 public class SeleniumBase {
     public ChromeDriver SeleniumInIt(String url) {
 
@@ -13,6 +15,7 @@ public class SeleniumBase {
         options.addArguments("--remote-allow-origins=*"); //fix for chrome driver version 111
         WebDriverManager.chromedriver();
         ChromeDriver driver = new ChromeDriver(options);
+        driver.manage().timeouts().implicitlyWait( Duration.ofSeconds(20));
 
         driver.get(url);
         return driver;
