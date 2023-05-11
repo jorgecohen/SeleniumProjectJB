@@ -18,7 +18,7 @@ public class youTubeTest {
         searchPage.search("ash bonjuk bay");
         playerPage.addToPlaylist();
         playerPage.returnHomePage();
-        searchPage.search("כנפיים (Live)");
+        searchPage.search("יוניקורן");
         playerPage.addToPlaylist();
         playerPage.returnHomePage();
         searchPage.search("טונה ויסמין מועלם - סהרה");
@@ -27,7 +27,7 @@ public class youTubeTest {
         searchPage.search("רז פרי - היום אני שמח");
         playerPage.addToPlaylist();
         playerPage.returnHomePage();
-        searchPage.search("לב בוגרשוב");
+        searchPage.search("תיק קטן");
         playerPage.addToPlaylist();
         playerPage.moveToPlaylistPage();
         playlistPage.startPlaylist();
